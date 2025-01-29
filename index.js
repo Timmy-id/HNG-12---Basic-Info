@@ -3,6 +3,8 @@ import cors from 'cors'
 
 const app = express()
 
+const PORT = 3000
+
 app.use(cors())
 
 const date = new Date().toISOString()
@@ -23,6 +25,6 @@ app.use('*', (_req, res) => {
         })
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Server is running on port 3000')
 })
