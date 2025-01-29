@@ -4,6 +4,7 @@ HNG-12---Basic-Info
 ## Introduction
 
 This project documents a public API that retrieves basic information.
+The live link for the project can be found [here](https://hng-12-basic-info.vercel.app/)
 
 ## Tech Stack (Dependencies)
 
